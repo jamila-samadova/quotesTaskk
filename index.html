@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+
+    <style>
+      .body {
+        background-image: url("https://images.unsplash.com/photo-1558021212-51b6ecfa0db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+      }
+
+      .container-part {
+        width: 36%;
+        height: 35%;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      #quote-part {
+        font-weight: bold;
+        padding: 20px;
+      }
+
+      #person-part {
+        color: red;
+      }
+
+      #quoteBtn {
+        background-color: lightcoral;
+        border: none;
+        padding: 10px 20px;
+        font-size: 15px;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body class="body">
+    <div class="container-part">
+      <h2 id="quote-part">
+        "Tell me and I forget. Teach me and I remember. Involve me and I learn."
+      </h2>
+      <h3 id="person-part">BENJAMIN FRANKLIN</h3>
+      <button id="quoteBtn">Add Quote</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
